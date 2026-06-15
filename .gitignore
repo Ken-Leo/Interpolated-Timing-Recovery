@@ -1,0 +1,25 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+data/
+debug_pll.log
+.opencode/
+node_modules/
+.vscode/
+.claude/
+.venv/
+
+# Internal AI configuration
+AGENTS.md
+CLAUDE.md
+opencode.jsonc
+
+# Documentation artifacts (Copyrighted PDFs)
+docs/*.pdf
+
+# Logs
+*.log
+docs/

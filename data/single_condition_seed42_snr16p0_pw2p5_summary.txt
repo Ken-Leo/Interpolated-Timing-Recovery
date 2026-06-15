@@ -1,0 +1,16 @@
+Single-condition fixed-seed result
+seed=42, snr_db=16.0, pw50=2.5
+mode=pmr, sigma_j=0.03, sigma_w=0.005, freq_offset=0.004
+estimated_target=1.000000, 1.997758, 1.605494, 0.618866, 0.100207
+initial_taps_source=condition:data/eq_coeff_library/fse_taps_seed42_snr16p0_pw2p5_len21.txt
+condition_taps_path=data/eq_coeff_library/fse_taps_seed42_snr16p0_pw2p5_len21.txt
+estimated_ted_slope=2.722828
+
+Top candidates:
+full_c50_a1.2_b1.2_mu0e+00: BER=0.000000, mse_initial=0.347465, mse_final=1.466373, target_ok=False
+full_c50_a1.2_b1.0_mu0e+00: BER=0.000000, mse_initial=0.344210, mse_final=1.460671, target_ok=False
+full_c50_a1.2_b0.8_mu0e+00: BER=0.000000, mse_initial=0.341295, mse_final=1.458596, target_ok=False
+
+Selected best:
+name=full_c50_a1.2_b1.2_mu0e+00, alpha=0.04976949506336114, beta=0.002981038174329579, mu_fse=0.0, sup_data=full
+BER=0.000000, mse_initial=0.347465, mse_final=1.466373, mse_ratio=4.220200, target_ok=False
